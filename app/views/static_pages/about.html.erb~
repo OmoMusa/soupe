@@ -1,0 +1,11 @@
+<% provide(:title, 'About Us') %>
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Soupe | <%= yield(:title) %></title>
+   </head>
+   <body>
+      <h1>About Us</h2>
+      <p> Soupe! is a website where you can find restaurants closest to you in Aberdeen City and surrounding areas.</p>
+   </body>
+</html>

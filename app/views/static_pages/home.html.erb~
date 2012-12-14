@@ -1,0 +1,11 @@
+<% provide(:title, 'Home') %>
+      
+<div class="center hero-unit">
+   <h1>Welcome to Soupe!</h1>
+
+   <h2> This is the home page for Soupe Please have a look around. </h2>
+
+<%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+</div>
+
+
